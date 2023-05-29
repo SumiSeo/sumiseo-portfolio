@@ -8,7 +8,14 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <h1>Homepage</h1>
+      <div className="home__container">
+        <div className="home__column">
+          <h1>
+            Sumi is a software engineer working in designing, developing and
+            solving real word problems.
+          </h1>
+        </div>
+      </div>
     </>
   );
 }
