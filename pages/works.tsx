@@ -1,5 +1,11 @@
+import Work from "@/comps/Work";
+
 const works = (): JSX.Element => {
-  return <div>works</div>;
+  return (
+    <div>
+      <Work />
+    </div>
+  );
 };
 
 export default works;
