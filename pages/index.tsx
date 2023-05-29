@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Footer from "@/comps/Footer";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.scss";
 
@@ -15,6 +16,7 @@ export default function Home() {
             solving real word problems.
           </h1>
         </div>
+        <Footer />
       </div>
     </>
   );
