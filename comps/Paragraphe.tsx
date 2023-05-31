@@ -1,4 +1,4 @@
-import styles from "@/styles/Paragraphe.module.scss";
+import styles from "@/styles/components/Paragraphe.module.scss";
 
 const Paragraphe = (): JSX.Element => {
   return (
