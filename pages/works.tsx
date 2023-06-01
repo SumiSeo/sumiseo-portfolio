@@ -4,7 +4,7 @@ import styles from "@/styles/Works.module.scss";
 const works = (): JSX.Element => {
   return (
     <div className={styles.works}>
-      <Work year="2022" name="fluuent" desc="example" />
+      <Work year="2022" name="Fluuent" desc="example" />
       <Work year="2021" name="Favorite medium" desc="example" />
     </div>
   );
