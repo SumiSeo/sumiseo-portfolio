@@ -6,9 +6,9 @@ const works = (): JSX.Element => {
     <>
       <div className={styles.works}>
         <div className={styles.head}>
-          <div className={styles.text}>Year</div>
-          <div className={styles.text}>Company</div>
-          <div className={styles.text}>Projects</div>
+          <div className={styles.text}>When</div>
+          <div className={styles.text}>Where</div>
+          <div className={styles.text}>What</div>
           <div className={styles.text}></div>
         </div>
       </div>
