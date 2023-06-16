@@ -25,9 +25,8 @@ const works = (): JSX.Element => {
           <Work year="2022" name="Favorite medium" desc="Software Engineer" />
           <WorkDetail
             date="2021.10 - 2022.12"
-            company="Fluuent is a start-up based on Portland in the United States."
-            project="Surgeons and medical practiciens invested to found the compay to solve actual problem in medical field. Improving referring system was the main objective.
-            In R&D ph"
+            company="Favorite Medium is a singapore based company which outcome-focused agile teams to design, build and launch digital products."
+            project="Developed AI-Concierge application from R&D phase "
           />
         </div>
       </div>
