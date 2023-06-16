@@ -1,4 +1,4 @@
-const CustomIcon = (): JSX.Element => {
+const EyeIcon = (): JSX.Element => {
   return (
     <>
       <svg
@@ -15,4 +15,4 @@ const CustomIcon = (): JSX.Element => {
   );
 };
 
-export default CustomIcon;
+export default EyeIcon;

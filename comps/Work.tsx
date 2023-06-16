@@ -1,6 +1,6 @@
 import styles from "@/styles/components/Work.module.scss";
 import { Work } from "@/types/Work";
-import CustomIcon from "./CustomIcon";
+import EyeIcon from "./EyeIcon";
 import { useState } from "react";
 import WorkDetail from "./WorkDetail";
 
@@ -19,7 +19,7 @@ const Work = ({ year, name, desc }: Work): JSX.Element => {
         <div className={styles.work__column}>{name}</div>
         <div className={styles.work__column}>{desc}</div>
         <div className={styles.work__column}>
-          <CustomIcon />
+          <EyeIcon />
         </div>
         <WorkDetail />
       </div>
