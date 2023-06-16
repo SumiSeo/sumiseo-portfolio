@@ -3,15 +3,10 @@ import { Work } from "@/types/Work";
 import EyeIcon from "./EyeIcon";
 import { useState } from "react";
 
-const Work = ({ year, name, desc }: Work): JSX.Element => {
-  const [expanded, setExpanded] = useState<boolean>(false);
-  const expandWork = () => {
-    setExpanded(!expanded);
-  };
+const Work = ({ year, name, desc, expanded }: Work): JSX.Element => {
   return (
     <div className={styles.work}>
       <div
-        onClick={expandWork}
         className={expanded ? styles.work__expanded : styles.work__container}
       >
         <div className={styles.work__column}>{year}</div>
