@@ -1,4 +1,5 @@
 export interface WorkDetail {
   date: string;
-  tech: string;
+  company: string;
+  project: string;
 }
