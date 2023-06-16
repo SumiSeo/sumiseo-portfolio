@@ -15,17 +15,17 @@ const works = (): JSX.Element => {
       </div>
       <div>
         <div>
-          <Work year="2023" name="Fluuent" desc="example" />
+          <Work year="2023" name="Fluuent" desc="Frontend Engineer" />
           <WorkDetail
             date="2023.02 - 2023.05"
-            tech="C#, Blazor"
-            title="Frontend Engineer"
+            tech="  Fluuent is a start-up based on Portland in the United States. Surgeons and medical practiciens invested to found the compay to solve actual problem in medical field. Improving referring system was the main objective.
+            In R&D phase, we started to develop the application using Microsoft PowerApp Component Framework but enhacing communcation with BackEnd language has a roadblock. So we changed the FrontEnd by developing C# and Blazor Framework.
+            "
           />
-          <Work year="2022" name="Favorite medium" desc="example" />
+          <Work year="2022" name="Favorite medium" desc="Software Engineer" />
           <WorkDetail
             date="2021.10 - 2022.12"
             tech="React, TypeScript, GraphQL, Flutter, AWS and third-party APIs "
-            title="Software Engineer"
           />
         </div>
       </div>
