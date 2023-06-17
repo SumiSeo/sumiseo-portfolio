@@ -4,8 +4,8 @@ const Paragraphe = (): JSX.Element => {
   return (
     <div className={styles.paragraphe}>
       Hi, I am a software engineer. <br />
-      <br />I am proficient in both Frontend and Backend language using C,
-      Python, Typescript, React, GraphQL and third-party APIs.
+      <br />I am proficient in both Front-End and Back-End language using C,
+      Python, TypeScript, React, GraphQL and third-party APIs.
     </div>
   );
 };
