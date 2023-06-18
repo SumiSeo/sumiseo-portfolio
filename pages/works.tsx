@@ -58,7 +58,7 @@ const works = (): JSX.Element => {
             <WorkDetail
               date="2021.10 - 2022.12"
               company="Favorite Medium is a singapore based company which outcome-focused agile teams to design, build and launch digital products."
-              project="Developed AI-Concierge application from R&D phase "
+              project="I developed a real-time dashboard connected to the AI-Camera technology using React, TypeScript, Hasura-GraphQL, and AWS. Also, I developed a mobile application that provides electric car charger service with Flutter and GetX Pattern."
             />
           </div>
         </div>
