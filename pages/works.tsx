@@ -32,18 +32,28 @@ const works = (): JSX.Element => {
       </div>
       <div>
         <div onClick={expandFluuentWorkDetail}>
-          <Work year="2023" name="Fluuent" desc="Frontend Engineer" />
+          <Work
+            year="2023"
+            name="Fluuent"
+            desc="Frontend Engineer"
+            icon={expandedFluuent}
+          />
           <div className={expandedFluuent ? styles.hidden : ""}>
             <WorkDetail
               date="2023.02 - 2023.05"
               company="Fluuent is a start-up based on Portland in the United States."
               project="Surgeons and medical practiciens invested to found the compay to solve actual problem in medical field. Improving referring system was the main objective.
-            In R&D phase, we started to develop the application using Microsoft PowerApp Component Framework but enhacing communcation with BackEnd language was a roadblock. Microsoft PCF was not optimized to deal with C# language. Since handling data from client side was the main goal, so we changed the FrontEnd by developing C# and Blazor Framework."
+            In R&D phase, we started to develop the application using Microsoft PowerApp Component Framework but enhacing communcation with Back-End language was a roadblock. Microsoft PCF was not optimized to deal with C# language. Since handling data from client side was the main goal, so we changed the Front-End by developing C# and Blazor Framework."
             />
           </div>
         </div>
         <div onClick={expandFMWorkDetail}>
-          <Work year="2021" name="Favorite Medium" desc="Software Engineer" />
+          <Work
+            icon={expandedFM}
+            year="2021"
+            name="Favorite Medium"
+            desc="Software Engineer"
+          />
           <div className={expandedFM ? styles.hidden : ""}>
             <WorkDetail
               date="2021.10 - 2022.12"
@@ -54,6 +64,7 @@ const works = (): JSX.Element => {
         </div>
         <div onClick={expandSchoolDetail}>
           <Work
+            icon={expandedSchool}
             year="2013"
             name="Korea National University of Arts"
             desc="Film, TV and Multimedia"
