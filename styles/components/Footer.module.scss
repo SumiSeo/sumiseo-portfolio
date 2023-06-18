@@ -16,6 +16,7 @@
 .box {
   margin-top: 1rem;
   color: #444444;
+  position: relative;
   span:first-child {
     margin-right: 1rem;
     font-size: 0.8rem;
@@ -38,4 +39,24 @@
       opacity: 0.5;
     }
   }
+}
+
+.form {
+  font-size: 1.4rem;
+  position: absolute;
+  color: #444444;
+  top: -2.3rem;
+  left: 5rem;
+  width: 13rem;
+  height: 2rem;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 1s ease-in-out;
+}
+
+.hidden {
+  opacity: 0;
+  position: absolute;
 }
