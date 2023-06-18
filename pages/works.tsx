@@ -6,6 +6,7 @@ import { useState } from "react";
 const works = (): JSX.Element => {
   const [expandedFluuent, setExpandedFluuent] = useState<boolean>(true);
   const [expandedFM, setExpandedFM] = useState<boolean>(true);
+  const [expandedSchool, setExpandedSchool] = useState<boolean>(true);
 
   const expandFluuentWorkDetail = () => {
     setExpandedFluuent(!expandedFluuent);
@@ -13,6 +14,10 @@ const works = (): JSX.Element => {
 
   const expandFMWorkDetail = () => {
     setExpandedFM(!expandedFM);
+  };
+
+  const expandSchoolDetail = () => {
+    setExpandedSchool(!expandedSchool);
   };
 
   return (
@@ -44,6 +49,20 @@ const works = (): JSX.Element => {
               date="2021.10 - 2022.12"
               company="Favorite Medium is a singapore based company which outcome-focused agile teams to design, build and launch digital products."
               project="Developed AI-Concierge application from R&D phase "
+            />
+          </div>
+        </div>
+        <div onClick={expandSchoolDetail}>
+          <Work
+            year="2013"
+            name="Korea National University of Arts"
+            desc="Film, TV and Multimedia"
+          />
+          <div className={expandedSchool ? styles.hidden : ""}>
+            <WorkDetail
+              date="2013.03 - 2018.02"
+              company="Korea National University of Arts was established as the only national university of arts with an aim to serve as a leading institution which cultivates artists."
+              project="Learned overall arts and created some artworks."
             />
           </div>
         </div>
