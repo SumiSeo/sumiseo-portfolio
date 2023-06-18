@@ -2,8 +2,6 @@ import styles from "@/styles/components/WorkDetail.module.scss";
 import { WorkDetail } from "@/types/WorkDetail";
 
 const WorkDetail = ({ date, company, project }: WorkDetail): JSX.Element => {
-  const hideDetail = () => {};
-
   return (
     <div className={styles.detail}>
       <div className={styles.detail__column}>
