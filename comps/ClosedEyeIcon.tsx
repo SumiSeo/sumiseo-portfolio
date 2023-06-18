@@ -11,7 +11,7 @@ const ClosedEyeIcon = (): JSX.Element => {
         stroke-width="1"
         stroke-linecap="square"
         stroke-linejoin="miter"
-        fill="none"
+        fill="#444444;"
         color="#000000"
       >
         <title id="eyeClosedIconTitle">Hidden (closed eye)</title>{" "}

@@ -19,7 +19,7 @@ const ArrowIcon = (): JSX.Element => {
           id="Page-1"
           stroke="none"
           stroke-width="1"
-          fill="none"
+          fill="#444444;"
           fill-rule="evenodd"
         >
           <g

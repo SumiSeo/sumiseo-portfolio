@@ -2,7 +2,7 @@ const EyeIcon = (): JSX.Element => {
   return (
     <>
       <svg
-        fill="#000000"
+        fill="#444444;"
         width="25px"
         height="25px"
         viewBox="0 0 32 32"

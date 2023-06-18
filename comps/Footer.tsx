@@ -13,8 +13,12 @@ const Footer = (): JSX.Element => {
         </div>
         <div className={styles.box}>
           <span>Watch</span>
-          <span>Github</span>
-          <span>LinkedIn</span>
+          <a href="https://github.com/SumiSeo" target="_blank">
+            Github
+          </a>
+          <a href="https://www.linkedin.com/in/sumiseo/" target="_blank">
+            LinkedIn
+          </a>
         </div>
       </div>
       <div className={styles.column}>
