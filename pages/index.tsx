@@ -1,8 +1,7 @@
-import Footer from "@/comps/Footer";
 import Paragraphe from "@/comps/Paragraphe";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.scss";
-import Works from "./Works";
+import Works from "@/pages/Works";
 
 const inter = Inter({ subsets: ["latin"] });
 
