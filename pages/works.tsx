@@ -14,6 +14,7 @@ const works = (): JSX.Element => {
   const expandFMWorkDetail = () => {
     setExpandedFM(!expandedFM);
   };
+
   return (
     <>
       <div className={styles.works}>

@@ -1,8 +1,6 @@
 import styles from "@/styles/components/Work.module.scss";
 import { Work } from "@/types/Work";
 import EyeIcon from "./EyeIcon";
-import { useState, useRef } from "react";
-import WorkDetail from "./WorkDetail";
 
 const Work = ({ year, name, desc }: Work): JSX.Element => {
   return (
