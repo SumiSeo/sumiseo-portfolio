@@ -1,7 +1,7 @@
 import Paragraphe from "@/comps/Paragraphe";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.scss";
-import Works from "@/pages/Works";
+import WorksList from "./WorksLists";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +13,7 @@ export default function Home() {
           <Paragraphe />
         </div>
         <div className={styles.home__column}>
-          <Works />
+          <WorksList />
         </div>
       </div>
     </>

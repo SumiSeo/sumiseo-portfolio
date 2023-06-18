@@ -3,7 +3,7 @@ import styles from "@/styles/Works.module.scss";
 import WorkDetail from "@/comps/WorkDetail";
 import { useState } from "react";
 
-const Works = (): JSX.Element => {
+const WorksList = (): JSX.Element => {
   const [expandedFluuent, setExpandedFluuent] = useState<boolean>(true);
   const [expandedFM, setExpandedFM] = useState<boolean>(true);
   const [expandedSchool, setExpandedSchool] = useState<boolean>(true);
@@ -81,5 +81,4 @@ const Works = (): JSX.Element => {
     </>
   );
 };
-
-export default Works;
+export default WorksList;
