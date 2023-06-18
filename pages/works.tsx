@@ -42,8 +42,8 @@ const works = (): JSX.Element => {
             <WorkDetail
               date="2023.02 - 2023.05"
               company="Fluuent is a start-up based on Portland in the United States."
-              project="Surgeons and medical practiciens invested to found the compay to solve actual problem in medical field. Improving referring system was the main objective.
-            In R&D phase, we started to develop the application using Microsoft PowerApp Component Framework but enhacing communcation with Back-End language was a roadblock. Microsoft PCF was not optimized to deal with C# language. Since handling data from client side was the main goal, so we changed the Front-End by developing C# and Blazor Framework."
+              project="Surgeons and medical practicians invested to found the company to improve referring systems in the medical field.
+            In the R&D phase, we started to develop the application using Microsoft PowerApp Component Framework but enhancing communcation with Back-End language was a roadblock. Microsoft PCF is not optimized to deal with C# language. Since handling data from the client side was the main goal, we changed the Front-End by developing C# and Blazor Framework."
             />
           </div>
         </div>
@@ -72,7 +72,7 @@ const works = (): JSX.Element => {
           <div className={expandedSchool ? styles.hidden : ""}>
             <WorkDetail
               date="2013.03 - 2018.02"
-              company="Korea National University of Arts was established as the only national university of arts with an aim to serve as a leading institution which cultivates artists."
+              company="Korea National University of Arts was established as the only national university of arts in Korea with an aim to serve as a leading institution which cultivates artists."
               project="Learned overall arts and created some artworks."
             />
           </div>
