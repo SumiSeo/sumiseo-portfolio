@@ -13,9 +13,11 @@
 }
 .box {
   margin-top: 1rem;
+
   span:first-child {
     margin-right: 1rem;
     font-size: 0.8rem;
+    cursor: pointer;
   }
 
   span:not(:first-child) {
@@ -24,9 +26,10 @@
     display: inline-block;
     margin-left: 0.3rem;
     font-style: italic;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
     &:hover {
-      color: red;
-      cursor: pointer;
+      opacity: 0.5;
     }
   }
 }
