@@ -1,22 +1,39 @@
+import styles from "@/styles/components/ArrowIcon.module.scss";
+
 const ArrowIcon = (): JSX.Element => {
   return (
     <>
       <svg
-        width="10px"
-        height="10px"
-        viewBox="0 0 24 24"
-        fill="none"
+        className={styles.arrow}
+        width="30px"
+        height="30px"
+        viewBox="0 0 20 20"
+        version="1.1"
         xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <g id="Arrow / Arrow_Sub_Down_Right">
-          <path
-            id="Vector"
-            d="M13 11L18 16M18 16L13 21M18 16H10.1969C9.07899 16 8.5192 16 8.0918 15.7822C7.71547 15.5905 7.40973 15.2839 7.21799 14.9076C7 14.4798 7 13.9201 7 12.8V3"
-            stroke="#000000"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
+        <title>arrow_right [#349]</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g
+          id="Page-1"
+          stroke="none"
+          stroke-width="1"
+          fill="none"
+          fill-rule="evenodd"
+        >
+          <g
+            id="Dribbble-Light-Preview"
+            transform="translate(-180.000000, -6639.000000)"
+            fill="#000000"
+          >
+            <g id="icons" transform="translate(56.000000, 160.000000)">
+              <path
+                d="M134,6479 L132.565,6480.393 L140.172,6488 L124,6488 L124,6490 L140.172,6490 L132.586,6497.586 L134,6499 C137.661,6495.339 140.496,6492.504 144,6489 L134,6479"
+                id="arrow_right-[#349]"
+              ></path>
+            </g>
+          </g>
         </g>
       </svg>
     </>
