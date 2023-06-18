@@ -2,7 +2,7 @@ import Footer from "@/comps/Footer";
 import Paragraphe from "@/comps/Paragraphe";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.scss";
-import Works from "./works";
+import Works from "./Works";
 
 const inter = Inter({ subsets: ["latin"] });
 
