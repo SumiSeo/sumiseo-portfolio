@@ -5,21 +5,31 @@ import { useState } from "react";
 const Footer = (): JSX.Element => {
   const [email, setEmail] = useState<boolean>(false);
   const [phone, setPhone] = useState<boolean>(false);
+  const [paris, setParis] = useState<boolean>(false);
   const [instagram, setInstagram] = useState<boolean>(false);
+  const showParis = () => {
+    setPhone(false);
+    setInstagram(false);
+    setEmail(false);
+    setParis(true);
+  };
   const showEmail = () => {
     setPhone(false);
     setInstagram(false);
     setEmail(true);
+    setParis(false);
   };
   const showPhone = () => {
     setPhone(true);
     setInstagram(false);
     setEmail(false);
+    setParis(false);
   };
   const showInstagram = () => {
     setPhone(false);
     setInstagram(true);
     setEmail(false);
+    setParis(false);
   };
   return (
     <div className={styles.footer}>
@@ -37,6 +47,10 @@ const Footer = (): JSX.Element => {
           <span onClick={showInstagram}>DM</span>
           <div className={instagram ? styles.form : styles.hidden}>
             @jerecoislesetoiles
+          </div>
+          <span onClick={showParis}>Address</span>
+          <div className={paris ? styles.form : styles.hidden}>
+            Paris, France
           </div>
         </div>
         <div className={styles.box}>
