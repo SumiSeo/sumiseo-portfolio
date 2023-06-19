@@ -38,3 +38,15 @@
   line-height: 2.2rem;
   margin-left: 0.4rem;
 }
+
+@media screen and (max-width: 800px) {
+  .explication {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .explication {
+    font-size: 0.6rem;
+  }
+}

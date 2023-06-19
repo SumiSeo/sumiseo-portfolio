@@ -8,3 +8,8 @@ body {
   font-family: "Zilla Slab", serif;
   font-size: 62.5%;
 }
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 50%;
+  }
+}

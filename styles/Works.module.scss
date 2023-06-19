@@ -17,3 +17,9 @@
 .hidden {
   display: none;
 }
+
+@media screen and (max-width: 800px) {
+  .head {
+    font-size: 0.7rem;
+  }
+}

@@ -27,3 +27,20 @@
     }
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .work__expanded {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .work__expanded {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .work__expanded {
+    font-size: 0.9rem;
+  }
+}

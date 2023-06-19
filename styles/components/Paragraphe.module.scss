@@ -9,3 +9,22 @@
 .oblique {
   font-style: italic;
 }
+@media screen and (max-width: 1200px) {
+  .paragraphe {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .paragraphe {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .paragraphe {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+}
