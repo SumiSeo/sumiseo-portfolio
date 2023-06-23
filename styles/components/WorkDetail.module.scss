@@ -39,6 +39,22 @@
   margin-left: 0.4rem;
 }
 
+@media screen and (max-width: 1200px) {
+  .detail {
+    margin: 0 2rem;
+  }
+  .detail__column {
+    width: 80%;
+  }
+  .date {
+    font-size: 1.1rem;
+  }
+  .techonologie,
+  .company {
+    font-size: 1.4rem;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .explication {
     font-size: 0.7rem;
