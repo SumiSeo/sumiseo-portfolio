@@ -11,20 +11,22 @@
 }
 @media screen and (max-width: 1200px) {
   .paragraphe {
-    font-size: 1.7rem;
-    line-height: 2.2rem;
+    font-size: 1.9rem;
+    padding-right: 1rem;
   }
 }
 @media screen and (max-width: 800px) {
   .paragraphe {
-    font-size: 1.6rem;
-    line-height: 2rem;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    padding-right: 1rem;
   }
 }
 
 @media screen and (max-width: 600px) {
   .paragraphe {
-    font-size: 1.4rem;
-    line-height: 1.8rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-right: 1rem;
   }
 }

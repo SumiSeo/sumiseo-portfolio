@@ -41,15 +41,21 @@
     }
   }
 }
-
+@media screen and (max-width: 1000px) {
+  .work__expanded {
+    font-size: 1.4rem;
+  }
+}
 @media screen and (max-width: 800px) {
   .work__expanded {
-    font-size: 1.1rem;
+    padding: 0.9rem 0;
+    font-size: 1.4rem;
   }
 }
 
 @media screen and (max-width: 600px) {
   .work__expanded {
-    font-size: 0.9rem;
+    padding: 0.8rem 0;
+    font-size: 1.2rem;
   }
 }
