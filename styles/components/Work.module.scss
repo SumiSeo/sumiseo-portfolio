@@ -31,8 +31,17 @@
 @media screen and (max-width: 1200px) {
   .work__expanded {
     font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .work__column {
+    &:first-child,
+    &:nth-child(3) {
+      display: none;
+    }
   }
 }
+
 @media screen and (max-width: 800px) {
   .work__expanded {
     font-size: 1.1rem;

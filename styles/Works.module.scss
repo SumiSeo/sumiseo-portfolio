@@ -18,6 +18,18 @@
   display: none;
 }
 
+@media screen and (max-width: 1200px) {
+  .head {
+    display: flex;
+    justify-content: space-between;
+  }
+  .text {
+    &:first-child,
+    &:nth-child(3) {
+      display: none;
+    }
+  }
+}
 @media screen and (max-width: 800px) {
   .head {
     font-size: 0.7rem;
