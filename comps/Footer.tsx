@@ -63,9 +63,7 @@ const Footer = (): JSX.Element => {
           </a>
         </div>
       </div>
-      <div className={styles.column}>
-        <ArrowIcon />
-      </div>
+      <div className={styles.column}>{/* <ArrowIcon /> */}</div>
     </div>
   );
 };
