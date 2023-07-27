@@ -7,6 +7,11 @@ const WorksList = (): JSX.Element => {
   const [expandedFluuent, setExpandedFluuent] = useState<boolean>(true);
   const [expandedFM, setExpandedFM] = useState<boolean>(true);
   const [expandedSchool, setExpandedSchool] = useState<boolean>(true);
+  const [expandedSorbonne, setExpandedSorbonne] = useState<boolean>(true);
+
+  const expandSorbonneDetail = () => {
+    setExpandedSorbonne(!expandedSorbonne);
+  };
 
   const expandFluuentWorkDetail = () => {
     setExpandedFluuent(!expandedFluuent);
@@ -31,6 +36,23 @@ const WorksList = (): JSX.Element => {
         </div>
       </div>
       <div>
+        <div onClick={expandSorbonneDetail}>
+          <Work
+            year="2023"
+            name="Sorbonne Paris North University"
+            desc="Biomedical Engineering"
+            icon={expandedSorbonne}
+          />
+          <div className={expandedSorbonne ? styles.hidden : ""}>
+            <WorkDetail
+              date="2023.09 - 2025.08"
+              company="Sorbonne University is "
+              project="Surgeons and medical practicians invested to found the company to improve referring systems in the medical field.
+            In the R&D phase, we started to develop the application using Microsoft PowerApp Component Framework but enhancing communcation with Back-End language was a roadblock. Microsoft PCF is not optimized to deal with C# language. Since handling data from the client side was the main goal, we changed the Front-End by developing C# and Blazor Framework."
+            />
+          </div>
+        </div>
+
         <div onClick={expandFluuentWorkDetail}>
           <Work
             year="2023"
