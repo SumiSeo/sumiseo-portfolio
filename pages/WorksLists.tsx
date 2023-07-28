@@ -46,7 +46,7 @@ const WorksList = (): JSX.Element => {
           <div className={expandedSorbonne ? styles.hidden : ""}>
             <WorkDetail
               date="2023.09 - 2025.08"
-              company="Studying biomedical engineering in Sorbonne Paris North University"
+              company="Studying biomedical engineering in Sorbonne Paris North University."
               project="The objective is to solve real-world problems in the medical and biology field by combining computer science skills. To answer the huge demand for data science in the medical area, I am learning not only software engineering skills but a tremendous knowledge of human health, medical and biologic academia."
             />
           </div>
