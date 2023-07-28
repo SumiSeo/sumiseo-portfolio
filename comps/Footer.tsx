@@ -45,9 +45,7 @@ const Footer = (): JSX.Element => {
             +33 7 67 23 49 82
           </div>
           <span onClick={showInstagram}>DM</span>
-          <div className={instagram ? styles.form : styles.hidden}>
-            @jerecoislesetoiles
-          </div>
+          <div className={instagram ? styles.form : styles.hidden}>@ykilmm</div>
           <span onClick={showParis}>Address</span>
           <div className={paris ? styles.form : styles.hidden}>
             Paris, France

@@ -46,9 +46,8 @@ const WorksList = (): JSX.Element => {
           <div className={expandedSorbonne ? styles.hidden : ""}>
             <WorkDetail
               date="2023.09 - 2025.08"
-              company="Sorbonne University is "
-              project="Surgeons and medical practicians invested to found the company to improve referring systems in the medical field.
-            In the R&D phase, we started to develop the application using Microsoft PowerApp Component Framework but enhancing communcation with Back-End language was a roadblock. Microsoft PCF is not optimized to deal with C# language. Since handling data from the client side was the main goal, we changed the Front-End by developing C# and Blazor Framework."
+              company="Studying biomedical engineering in Sorbonne Paris North University"
+              project="The objective is to solve real-world problems in the medical and biology field by combining computer science skills. To answer the huge demand for data science in the medical area, I am learning not only software engineering skills but a tremendous knowledge of human health, medical and biologic academia."
             />
           </div>
         </div>
